@@ -6,7 +6,7 @@ pygame.init()
 FPS = 30
 screen = pygame.display.set_mode((400, 400))
 
-screen.fill((255, 255, 0))
+screen.fill((225, 225, 225))
 
 circle(screen, (255, 255, 0), (200, 200), 150)
 circle(screen, (0, 0, 0), (200, 200), 150, 2)
